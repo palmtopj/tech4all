@@ -1,19 +1,9 @@
 const express = require('express')
+
+// creates express
 const app = express()
 
 app.listen(3001, () => {
     console.log('Server listening on port 3001')
 })
-// const { ApolloServer } = require('apollo-server-express');
 
-// const PORT = 3001;
-
-// // Serve images, css files, js files from the public directory
-// // Allows us to reference files with their relative path
-// // Example: http://localhost:3001/images/cat.jpg
-
-// app.use(express.static('public'));
-
-// app.listen(PORT, () =>
-//   console.log(`Serving static asset routes on port ${PORT}!`)
-// );
